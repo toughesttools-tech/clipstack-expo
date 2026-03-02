@@ -17,9 +17,7 @@ module.exports = {
   },
   "scheme": "clipstack",
   "plugins": [
-    "expo-router",
-    "expo-clipboard",
-    [
+    "expo-router",    [
       "expo-sqlite",
       {
         "enableFTS": true

@@ -18,7 +18,6 @@
     "scheme": "clipstack",
     "plugins": [
       "expo-router",
-      "expo-clipboard",
       [
         "expo-sqlite",
         {
