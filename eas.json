@@ -10,6 +10,9 @@
     },
     "preview": {
       "distribution": "internal",
+      "env": {
+        "NODE_VERSION": "20"
+      },
       "android": {
         "buildType": "apk",
         "gradleCommand": ":app:assembleRelease"
@@ -17,6 +20,9 @@
     },
     "production": {
       "autoIncrement": true,
+      "env": {
+        "NODE_VERSION": "20"
+      },
       "android": {
         "buildType": "apk"
       }

@@ -27,6 +27,13 @@
     ],
     "android": {
       "package": "tech.toughesttools.clipstack"
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "346e6eca-9c73-47ef-b605-ce732bde3444"
+      }
+    },
+    "owner": "devinmcgrath7"
   }
 }
